@@ -5,6 +5,9 @@ A simple program to fetch a YouTube comment thread as a spreadsheet.
 _Note: It currently returns __top-level__ comments only, not the threaded replies, as fetching all replies will make
 potentially very many additional API requests._
 
+By default, there is an available quota of 10,000 API requests per day, for videos with thousands of threads this quota
+can easily become exhausted.
+
 ## Prerequisites
 
 ### API Key
