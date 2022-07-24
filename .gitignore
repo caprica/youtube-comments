@@ -1,0 +1,10 @@
+bin
+target
+out
+patches
+.idea
+*.iml
+.classpath
+.project
+*.log
+junk
