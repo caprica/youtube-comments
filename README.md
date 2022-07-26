@@ -78,5 +78,5 @@ java -jar youtube-comments-1.0.jar -s fake-lotr.json v7v1hIkYH24
 Comments only:
 
 ```shell
-java -jar youtube-comments-1.0.jar -s fake-lotr.json v7v1hIkYH24
+java -jar youtube-comments-1.0.jar -c fake-lotr.xlsx v7v1hIkYH24
 ```
