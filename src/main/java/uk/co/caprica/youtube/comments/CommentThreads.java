@@ -59,7 +59,7 @@ public class CommentThreads {
             YouTube youtubeService = getService();
 
             if (statsOutput != null) {
-                System.out.printf("Writing status to '%s'%n", statsOutput);
+                System.out.printf("Writing stats to '%s'%n", statsOutput);
 
                 VideoListResponse statsResponse = youtubeService.videos()
                     .list("statistics")
@@ -133,6 +133,7 @@ public class CommentThreads {
             System.out.println(e.getMessage());
         }
     }
+
     private static String loadApiKey() throws Exception {
         try {
             Properties properties = new Properties();
